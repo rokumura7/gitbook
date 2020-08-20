@@ -1,12 +1,12 @@
-# Summary
+# Table of contents
 
-* [Introduction](README.md)
-
-* git
-  * [GitHub Template](git/github_templates.md)
+* [rokumura7/gitbook](README.md)
+* [git](git/README.md)
+  * [GitHub Template](git/github-template.md)
   * [Tips](git/tips.md)
-* JavaScript
-  * TypeScript
-    * [Get Started](js/ts/get_started.md)
-    * [Basic Types](js/ts/basic_types.md)
-    * [tsconfig](js/ts/tsconfig.md)
+* [JavaScript](javascript/README.md)
+  * [TypeScript](javascript/typescript/README.md)
+    * [Get Started](javascript/typescript/get-started.md)
+    * [Basic Types](javascript/typescript/basic-types.md)
+    * [tsconfig](javascript/typescript/tsconfig.md)
+
