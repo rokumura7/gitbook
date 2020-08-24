@@ -9,5 +9,5 @@
     * [Get Started](javascript/typescript/get-started.md)
     * [Basic Types](javascript/typescript/basic-types.md)
     * [tsconfig](javascript/typescript/tsconfig.md)
-* AWS
+* [AWS](aws/README.md)
   * [Serverless](aws/serverless.md)
