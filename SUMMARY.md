@@ -4,7 +4,7 @@
 * [git](git/README.md)
   * [GitHub Template](git/github-template.md)
   * [Tips](git/tips.md)
-  * [Cheat](git/chaeat.md)
+  * [Cheat](git/cheat.md)
 * [JavaScript](javascript/README.md)
   * [TypeScript](javascript/typescript/README.md)
     * [Get Started](javascript/typescript/get-started.md)
