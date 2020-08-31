@@ -3,9 +3,11 @@
 <font color="red">コミット歴の改変は原則禁止</font>
 
 ![コミットログ](./img/commitlog1.png)
+
 ↑これを
 
 ↓こうする
+
 ![コミットログ](./img/commitlog2.png)
 
 ## コミットログの確認
@@ -28,31 +30,31 @@ CommitDate: Tue Sep 1 02:00:16 2020 +0900
 commit e9adacf15b9d07388b62b01ccd6e4ae23eb88b25
 Author:     rokumura7 <rokumura@mail.com>
 AuthorDate: Tue Sep 1 01:48:08 2020 +0900
-Commit:     rokumura7 <rokumura@mailmail.com>
+Commit:     rokumura7 <rokumura@mail.com>
 CommitDate: Tue Sep 1 01:48:08 2020 +0900
 
     added Identifiable classes
 
 commit a4718a4074bceff2b171af6b75db750ff9dec471
-Author:     rokumura7 <rokumura@mailmail.com>
+Author:     rokumura7 <rokumura@mail.com>
 AuthorDate: Tue Sep 1 01:38:50 2020 +0900
-Commit:     rokumura7 <rokumura@mailmail.com>
+Commit:     rokumura7 <rokumura@mail.com>
 CommitDate: Tue Sep 1 01:38:50 2020 +0900
 
     moved Book.java
 
 commit fc8e21a9d5b15eb65692f1b60ae6af9ef252c716
-Author:     rokumura7 <rokumura@mailmail.com>
+Author:     rokumura7 <rokumura@mail.com>
 AuthorDate: Tue Sep 1 01:37:03 2020 +0900
-Commit:     rokumura7 <rokumura@mailmail.com>
+Commit:     rokumura7 <rokumura@mail.com>
 CommitDate: Tue Sep 1 01:37:03 2020 +0900
 
     fixed Book.java
 
 commit 9cb08f6fdd246a34391ee49fe12fb5c6a939ebcd (origin/master, origin/HEAD)
-Author:     rokumura7 <rokumura@mailmail.com>
+Author:     rokumura7 <rokumura@mail.com>
 AuthorDate: Thu Aug 27 20:44:42 2020 +0900
-Commit:     rokumura7 <rokumura@mailmail.com>
+Commit:     rokumura7 <rokumura@mail.com>
 CommitDate: Thu Aug 27 20:44:42 2020 +0900
 
     implement book builder
@@ -96,41 +98,41 @@ $git rebase --continue
 
 ```console
 commit d9f1101e09608641acd53d66a4a8b33f5167c61b (HEAD -> master, origin/master, origin/HEAD)
-Author:     rokumura7 <rokumura@mailmail.com>
+Author:     rokumura7 <rokumura@mail.com>
 AuthorDate: Mon Aug 31 20:00:00 2020 +0900
-Commit:     rokumura7 <rokumura@mailmail.com>
+Commit:     rokumura7 <rokumura@mail.com>
 CommitDate: Tue Sep 1 08:09:40 2020 +0900
 
     added Author.java
 
 commit 7ae4ad9820d235a32ffe4b25ce77deeed654674d
-Author:     rokumura7 <rokumura@mailmail.com>
+Author:     rokumura7 <rokumura@mail.com>
 AuthorDate: Sun Aug 30 20:00:00 2020 +0900
-Commit:     rokumura7 <rokumura@mailmail.com>
+Commit:     rokumura7 <rokumura@mail.com>
 CommitDate: Tue Sep 1 08:09:19 2020 +0900
 
     added Identifiable classes
 
 commit 7c46f627db47e6a0a1b79e56e311d38d15a95b89
-Author:     rokumura7 <rokumura@mailmail.com>
+Author:     rokumura7 <rokumura@mail.com>
 AuthorDate: Sat Aug 29 20:00:00 2020 +0900
-Commit:     rokumura7 <rokumura@mailmail.com>
+Commit:     rokumura7 <rokumura@mail.com>
 CommitDate: Tue Sep 1 08:08:17 2020 +0900
 
     moved Book.java
 
 commit 8242681a7cc966b284fe03143119098bed5a98d9
-Author:     rokumura7 <rokumura@mailmail.com>
+Author:     rokumura7 <rokumura@mail.com>
 AuthorDate: Fri Aug 28 20:00:00 2020 +0900
-Commit:     rokumura7 <rokumura@mailmail.com>
+Commit:     rokumura7 <rokumura@mail.com>
 CommitDate: Tue Sep 1 08:06:50 2020 +0900
 
     fixed Book.java
 
 commit 9cb08f6fdd246a34391ee49fe12fb5c6a939ebcd
-Author:     rokumura7 <rokumura@mailmail.com>
+Author:     rokumura7 <rokumura@mail.com>
 AuthorDate: Thu Aug 27 20:44:42 2020 +0900
-Commit:     rokumura7 <rokumura@mailmail.com>
+Commit:     rokumura7 <rokumura@mail.com>
 CommitDate: Thu Aug 27 20:44:42 2020 +0900
 
     implement book builder
