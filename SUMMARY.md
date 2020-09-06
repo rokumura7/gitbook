@@ -1,6 +1,10 @@
 # Table of contents
 
 * [rokumura7/gitbook](README.md)
+* [AWS](aws/README.md)
+  * [Serverless](aws/serverless.md)
+* [DB](db/README.md)
+  * [Link集](db/links.md)
 * [git](git/README.md)
   * [GitHub Template](git/github-template.md)
   * [Tips](git/tips.md)
@@ -10,5 +14,5 @@
     * [Get Started](javascript/typescript/get-started.md)
     * [Basic Types](javascript/typescript/basic-types.md)
     * [tsconfig](javascript/typescript/tsconfig.md)
-* [AWS](aws/README.md)
-  * [Serverless](aws/serverless.md)
+* [scala](scala/README.md)
+  * [Link集](scala/links.md)

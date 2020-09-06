@@ -30,8 +30,6 @@
 
 ### Basic Options
 
-<details>
-
 ---
 
 #### incremental
@@ -119,14 +117,10 @@ jsのマッピングファイル生成設定。
 
 // TODO: よくわからん
 
-</details>
-
 ---
 ---
 
 ### Strict Type-Checking Options
-
-<details>
 
 ---
 
@@ -163,14 +157,10 @@ jsのマッピングファイル生成設定。
 
 `use strict`をすべてのファイルに付与する。
 
-</details>
-
 ---
 ---
 
 ### Additional Checks
-
-<details>
 
 ---
 
@@ -190,14 +180,10 @@ jsのマッピングファイル生成設定。
 
 `switch`文において、`break`が設定されず後続の`case`文に処理が流れてしまう場合にエラーとする。
 
-</details>
-
 ---
 ---
 
 ### Module Resolution Options
-
-<details>
 
 ---
 
@@ -257,14 +243,10 @@ CommonJSとESModule間の相互運用を有効にする。
 
 UMDモジュールを`import`なしでグローバルにアクセス可能にする。
 
-</details>
-
 ---
 ---
 
 ### Source Map Options
-
-<details>
 
 ---
 
@@ -284,14 +266,10 @@ UMDモジュールを`import`なしでグローバルにアクセス可能にす
 
 // TODO: よくわからん
 
-</details>
-
 ---
 ---
 
 ### Experimental Options
-
-<details>
 
 ---
 
@@ -302,5 +280,3 @@ UMDモジュールを`import`なしでグローバルにアクセス可能にす
 #### emitDecoratorMetadata
 
 デコレーターのための型メタデータの実験的なサポートを可能にする。
-
-</details>
