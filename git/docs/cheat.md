@@ -2,13 +2,13 @@
 
 <font color="red">コミット歴の改変は原則禁止</font>
 
-![コミットログ](./img/commitlog1.png)
+![コミットログ](../img/commitlog1.png)
 
 ↑これを
 
 ↓こうする
 
-![コミットログ](./img/commitlog2.png)
+![コミットログ](../img/commitlog2.png)
 
 ## コミットログの確認
 
