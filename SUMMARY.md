@@ -8,7 +8,7 @@
 * [TypeScript](typescript/README.md)
   * [Get Started](typescript/get-started.md)
   * [Basic Types](typescript/basic-types.md)
-  * [tsconfig](javascript/typescript/tsconfig.md)
+  * [tsconfig](typescript/tsconfig.md)
 
 * [Vue](vue/README.md)
   * [vue-router](vue/vue-router.md)
