@@ -2,34 +2,17 @@
 
 * [rokumura7](README.md)
 
-* [JavaScript](javascript/README.md)
-  * [Link集](javascript/links.md)
-
-* [TypeScript](typescript/README.md)
-  * [Get Started](typescript/get-started.md)
-  * [Basic Types](typescript/basic-types.md)
-  * [tsconfig](typescript/tsconfig.md)
-
-* [Vue](vue/README.md)
-  * [vue-router](vue/vue-router.md)
-  * [incremental-search](vue/incremental-search.md)
-
-* [Scala](scala/README.md)
-  * [Link集](scala/links.md)
+* [AWS](aws/README.md)
+  * [Serverless](aws/docs/serverless.md)
 
 * [CSS](css/README.md)
-  * [TailwindCSS](css/tailwindcss.md)
+  * [TailwindCSS](css/docs/tailwindcss.md)
 
-* [AWS](aws/README.md)
-  * [Serverless](aws/serverless.md)
+* [DB](db/README.md)
+  * [Link集](db/docs/links.md)
 
 * [Docker](docker/README.md)
-  * [Cleanup](docker/cleanup.md)
-
-* [Linux](linux/README.md)
-  * [dd](linux/dd.md)
-  * [du](linux/du.md)
-  * [Tips](linux/tips.md)
+  * [Cleanup](docker/docs/cleanup.md)
 
 * [git](git/README.md)
   * [Tips](git/docs/tips.md)
@@ -37,5 +20,22 @@
   * [Cheat](git/docs/cheat.md)
   * [Divide](git/docs/divide.md)
 
-* [DB](db/README.md)
-  * [Link集](db/links.md)
+* [JavaScript](javascript/README.md)
+  * [Link集](javascript/docs/links.md)
+
+* [Scala](scala/README.md)
+  * [Link集](scala/docs/links.md)
+
+* [Linux](linux/README.md)
+  * [dd](linux/docs/dd.md)
+  * [du](linux/docs/du.md)
+  * [Tips](linux/docs/tips.md)
+
+* [TypeScript](typescript/README.md)
+  * [Get Started](typescript/docs/get-started.md)
+  * [Basic Types](typescript/docs/basic-types.md)
+  * [tsconfig](typescript/docs/tsconfig.md)
+
+* [Vue](vue/README.md)
+  * [vue-router](vue/docs/vue-router.md)
+  * [incremental-search](vue/docs/incremental-search.md)

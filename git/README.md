@@ -1,16 +1,12 @@
 # git
 
-## [Tips](./docs/tips.md)
-基本的な操作とよく使うコマンドについて
+## [基本的な操作とよく使うコマンド](./docs/tips.md)
 
 ## [GitHub Template](./docs/github_template.md)
-GitHubテンプレートについて
 
-## [Cheat](./docs/cheat.md)
+## [歴史改変コミットについて](./docs/cheat.md)
 歴史改変コミットについて
 
-## [Divide](./docs/divide)
-リポジトリ分割について
+## [リポジトリを分割する方法](./docs/divide)
 
-## [Links](./docs/links)
-参考になるリンク集
+## [参考になるリンク集](./docs/links)
