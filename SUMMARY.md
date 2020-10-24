@@ -2,6 +2,9 @@
 
 * [rokumura7](README.md)
 
+* [Note](note/README.md)
+  * [コンポーネント指向](note/docs/component.md)
+
 * [AWS](aws/README.md)
   * [Serverless](aws/docs/serverless.md)
 
