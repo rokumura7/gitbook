@@ -27,6 +27,7 @@
   * [Link集](scala/docs/links.md)
 
 * [Linux](linux/README.md)
+  * [curl](linux/docs/curl.md)
   * [dd](linux/docs/dd.md)
   * [du](linux/docs/du.md)
   * [Tips](linux/docs/tips.md)
