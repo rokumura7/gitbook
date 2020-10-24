@@ -9,6 +9,8 @@
   * [TailwindCSS](css/docs/tailwindcss.md)
 
 * [DB](db/README.md)
+  * [MySQLの認証](db/docs/authentication_plugin.md)
+  * [外部キー解除](db/docs/rm_foreign_key.md)
   * [Link集](db/docs/links.md)
 
 * [Docker](docker/README.md)
