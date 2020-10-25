@@ -85,3 +85,14 @@ alias登録すると便利
 $ less .bashrc | grep gl
 alias gl="git for-each-ref refs/heads/ --sort='committerdate' --format='%(committerdate:short) %(refname:short)'"
 ```
+
+## 別ブランチから特定ファイルだけを取得
+
+```console
+$ git checkout ブランチ名 ファイルパス
+```
+
+例えば、`featureA`というブランチから`src/sample.js`というファイルだけ引っ張ってきたい場合
+```console
+$ git checkout featureA src/sample.js
+```
