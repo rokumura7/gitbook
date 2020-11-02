@@ -14,3 +14,5 @@
 ## Pull Request Template
 
 PR用のテンプレートは`.github`配下に`pull_request_template.md`を作成する。
+
+`resolve #issue番号`で自動的にissueをクローズしてくれるので、テンプレートに仕込んでおくと良い。
