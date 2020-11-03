@@ -29,6 +29,40 @@ $ git push --set-upstream リモート名 ブランチ名
 
 ---
 
+## コミットの整理
+
+細かくコミットしすぎた時に。
+
+
+```console
+$ git log --oneline
+5441aba hogehoge
+55aa20b fugafuga
+e029c5c foo
+7658b8f bar
+f1c1591 develop
+445f637 ・・・
+```
+
+`5441aba`〜`7658b8f`を一つにまとめて、`f1c1591 develop`から一回だけのコミットとしたいと想定すると、
+
+```console
+$ git rebase -i f1c1591
+```
+で、vimエディターが開くので、
+```
+pick 7658b8f bar
+f e029c5c foo
+f 55aa20b fugafuga
+f 5441aba hogehoge
+```
+とする。  
+コミットメッセージを変えたければ「bar」の部分を書き換えれば良い。  
+
+リモートに既にpushしている場合、履歴のズレが発生しているため`git push -f`を行う。
+
+---
+
 ## ブランチの削除
 
 ### ローカル
