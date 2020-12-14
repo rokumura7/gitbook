@@ -6,22 +6,22 @@
 
 `.gitignore`を編集した上で、
 
-```text
-$ git rm -r --cached 追跡を解除したいファイルパス
+```bash
+git rm -r --cached 追跡を解除したいファイルパス
 ```
 
 ## 取り消し
 
 ### add
 
-```text
-$ git reset
+```bash
+git reset
 ```
 
 ### commit
 
-```text
-$ git reset [ --hard | --soft ] HEAD^
+```bash
+git reset [ --hard | --soft ] HEAD^
 ```
 
 変更点を残す場合は`--hard`の代わりに`--soft`を利用する。
@@ -32,9 +32,9 @@ $ git reset [ --hard | --soft ] HEAD^
 
 強制プッシュで履歴を無理やり戻すので`upstream`には使わないほうがよい。
 
-```text
-$ git reset [ --hard | --soft ] HEAD^
-$ git push -f origin HEAD
+```bash
+git reset [ --hard | --soft ] HEAD^
+git push -f origin HEAD
 ```
 
 #### upstream
@@ -42,9 +42,9 @@ $ git push -f origin HEAD
 打ち消しで対応する方法。  
 履歴は残るが安全。
 
-```text
-$ git revert HEAD
-$ git push origin HEAD
+```bash
+git revert HEAD
+git push origin HEAD
 ```
 
 ## reflog
@@ -57,39 +57,39 @@ $ git push origin HEAD
 ### resetを取り消す
 
 ```text
-$ git reflog
-$ git reset --hard コミット
+git reflog
+git reset --hard コミット
 ```
 
 ### 削除したブランチを復元する
 
 ```text
-$ git reflog
-$ git branch ブランチ名 コミット
+git reflog
+git branch ブランチ名 コミット
 ```
 
 ## ブランチをコミット順に表示
 
 ```text
-$ git for-each-ref refs/heads/ --sort='committerdate' --format='%(committerdate:short) %(refname:short)'
+git for-each-ref refs/heads/ --sort='committerdate' --format='%(committerdate:short) %(refname:short)'
 ```
 
 alias登録すると便利
 
 ```text
-$ less .bashrc | grep gl
+less .bashrc | grep gl
 alias gl="git for-each-ref refs/heads/ --sort='committerdate' --format='%(committerdate:short) %(refname:short)'"
 ```
 
 ## 別ブランチから特定ファイルだけを取得
 
 ```text
-$ git checkout ブランチ名 ファイルパス
+git checkout ブランチ名 ファイルパス
 ```
 
 例えば、`featureA`というブランチから`src/sample.js`というファイルだけ引っ張ってきたい場合
 
 ```text
-$ git checkout featureA src/sample.js
+git checkout featureA src/sample.js
 ```
 
