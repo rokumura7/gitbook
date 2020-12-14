@@ -16,6 +16,7 @@
   * [curl](infrastructure-and-os-and-middleware/linux/curl.md)
   * [任意のサイズのファイルを作る](infrastructure-and-os-and-middleware/linux/dd.md)
   * [ディスクの使用量を表示す](infrastructure-and-os-and-middleware/linux/du.md)
+  * [zsh設定](infrastructure-and-os-and-middleware/linux/zsh-she-ding.md)
   * [Tips](infrastructure-and-os-and-middleware/linux/tips.md)
 
 ## DevOps
