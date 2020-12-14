@@ -17,7 +17,7 @@
 このコマンドで見える`AuthorDate`を任意の値に書き換えることで狙った日時でコミットしたことにできる。
 
 ```text
-$ git log --pretty=fuller
+git log --pretty=fuller
 
 commit a76f12a15d67c6c70e832b5598e7002ec0435f68 (HEAD -> master)
 Author:     rokumura7 <rokumura@mail.com>
@@ -68,7 +68,7 @@ CommitDate: Thu Aug 27 20:44:42 2020 +0900
 デフォルトでは`pick`になっているので`edit`に変更。
 
 ```text
-$git rebase -i HEAD~4
+git rebase -i HEAD~4
 
 edit fc8e21a fixed Book.java
 edit a4718a4 moved Book.java
@@ -83,15 +83,15 @@ edit a76f12a added Author.java
 コミット時に`--date={date}`で任意の日付を指定できる。
 
 ```text
-$git commit --amend --date="Fri Aug 28 20:00:00 2020 +0900"
-$git rebase --continue
+git commit --amend --date="Fri Aug 28 20:00:00 2020 +0900"
+git rebase --continue
 
-$git commit --amend --date="Sat Aug 29 20:00:00 2020 +0900"
-$git rebase --continue
-$git commit --amend --date="Sun Aug 30 20:00:00 2020 +0900"
-$git rebase --continue
-$git commit --amend --date="Mon Aug 31 20:00:00 2020 +0900"
-$git rebase --continue
+git commit --amend --date="Sat Aug 29 20:00:00 2020 +0900"
+git rebase --continue
+git commit --amend --date="Sun Aug 30 20:00:00 2020 +0900"
+git rebase --continue
+git commit --amend --date="Mon Aug 31 20:00:00 2020 +0900"
+git rebase --continue
 ```
 
 ## コミットログの確認
