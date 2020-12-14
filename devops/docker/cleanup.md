@@ -3,7 +3,7 @@
 ## 停止中のコンテナ、使われていないネットワーク、使われていないイメージ、使われていないキャッシュの削除
 
 ```text
-$ docker system prune
+docker system prune
 ```
 
 ## イメージの削除
@@ -11,13 +11,13 @@ $ docker system prune
 ### タグのついていないイメージの削除
 
 ```text
-$ docker images -qf dangling=true | xargs docker rmi
+docker images -qf dangling=true | xargs docker rmi
 ```
 
 ### タグの有無に関わらずまとめて削除
 
 ```text
-$ docker images -q | xargs docker rmi -f
+docker images -q | xargs docker rmi -f
 ```
 
 ## コンテナの削除
@@ -25,7 +25,7 @@ $ docker images -q | xargs docker rmi -f
 ### 紐付いたデータボリュームも削除
 
 ```text
-$ docker ps -aqf status=exited | xargs docker rm -v
+docker ps -aqf status=exited | xargs docker rm -v
 ```
 
 ## ボリュームの削除
@@ -33,13 +33,13 @@ $ docker ps -aqf status=exited | xargs docker rm -v
 ### 浮いたボリュームの削除
 
 ```text
-$ docker volume ls -qf dangling=true | xargs docker volume rm
+docker volume ls -qf dangling=true | xargs docker volume rm
 ```
 
 ## Docker Composeコンテナの削除
 
 ```text
-$ docker-compose rm -v
+docker-compose rm -v
 ```
 
 ## 参考
