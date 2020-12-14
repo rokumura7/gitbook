@@ -1,56 +1,47 @@
-# What I've Learned
+# Table of contents
 
 * [rokumura7](README.md)
-
-## Note
-
 * [Note](note/README.md)
-  * [コンポーネント指向](note/docs/component.md)
+  * [コンポーネント指向](note/component.md)
 
 ## Infrastructure & OS & Middleware
 
-* [AWS](aws/README.md)
-  * [Serverless](aws/docs/serverless.md)
-
-* [DB](db/README.md)
-  * [MySQLの認証](db/docs/authentication_plugin.md)
-  * [外部キー解除](db/docs/rm_foreign_key.md)
-  * [Link集](db/docs/links.md)
-
-* [Linux](linux/README.md)
-  * [curl](linux/docs/curl.md)
-  * [dd](linux/docs/dd.md)
-  * [du](linux/docs/du.md)
-  * [Tips](linux/docs/tips.md)
+* [AWS](infrastructure-and-os-and-middleware/aws/README.md)
+  * [Serverless](infrastructure-and-os-and-middleware/aws/serverless.md)
+* [DB](infrastructure-and-os-and-middleware/db/README.md)
+  * [MySQLの認証](infrastructure-and-os-and-middleware/db/authentication_plugin.md)
+  * [外部キー解除](infrastructure-and-os-and-middleware/db/rm_foreign_key.md)
+  * [Link集](infrastructure-and-os-and-middleware/db/links.md)
+* [Linux](infrastructure-and-os-and-middleware/linux/README.md)
+  * [curl](infrastructure-and-os-and-middleware/linux/curl.md)
+  * [任意のサイズのファイルを作る](infrastructure-and-os-and-middleware/linux/dd.md)
+  * [ディスクの使用量を表示す](infrastructure-and-os-and-middleware/linux/du.md)
+  * [Tips](infrastructure-and-os-and-middleware/linux/tips.md)
 
 ## DevOps
 
-* [Docker](docker/README.md)
-  * [Cleanup](docker/docs/cleanup.md)
-
-* [git](git/README.md)
-  * [基本操作](git/docs/basic.md)
-  * [Tips](git/docs/tips.md)
-  * [GitHub Template](git/docs/github-template.md)
-  * [履歴改ざん](git/docs/cheat.md)
-  * [リポジトリ分割](git/docs/divide.md)
+* [Docker](devops/docker/README.md)
+  * [Cleanup](devops/docker/cleanup.md)
+* [git](devops/git/README.md)
+  * [基本操作](devops/git/basic.md)
+  * [Tips](devops/git/tips.md)
+  * [GitHub Template](devops/git/github-template.md)
+  * [履歴改ざん](devops/git/cheat.md)
+  * [リポジトリ分割](devops/git/divide.md)
 
 ## Languages & Frameworks
 
-* [Scala](scala/README.md)
-  * [Link集](scala/docs/links.md)
+* [Scala](languages-and-frameworks/scala/README.md)
+  * [Link集](languages-and-frameworks/scala/links.md)
+* [JavaScript](languages-and-frameworks/javascript/README.md)
+  * [Link集](languages-and-frameworks/javascript/links.md)
+* [TypeScript](languages-and-frameworks/typescript/README.md)
+  * [Get Started](languages-and-frameworks/typescript/get-started.md)
+  * [Basic Types](languages-and-frameworks/typescript/basic-types.md)
+  * [tsconfig](languages-and-frameworks/typescript/tsconfig.md)
+* [Vue](languages-and-frameworks/vue/README.md)
+  * [vue-router](languages-and-frameworks/vue/vue-router.md)
+  * [incremental-search](languages-and-frameworks/vue/incremental-search.md)
+* [CSS](languages-and-frameworks/css/README.md)
+  * [TailwindCSS](languages-and-frameworks/css/tailwindcss.md)
 
-* [JavaScript](javascript/README.md)
-  * [Link集](javascript/docs/links.md)
-
-* [TypeScript](typescript/README.md)
-  * [Get Started](typescript/docs/get-started.md)
-  * [Basic Types](typescript/docs/basic-types.md)
-  * [tsconfig](typescript/docs/tsconfig.md)
-
-* [Vue](vue/README.md)
-  * [vue-router](vue/docs/vue-router.md)
-  * [incremental-search](vue/docs/incremental-search.md)
-
-* [CSS](css/README.md)
-  * [TailwindCSS](css/docs/tailwindcss.md)
