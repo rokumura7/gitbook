@@ -7,6 +7,7 @@
 ## Infrastructure & OS & Middleware
 
 * [AWS](infrastructure-and-os-and-middleware/aws/README.md)
+  * [Amazon ES](infrastructure-and-os-and-middleware/aws/amazon-es.md)
   * [Serverless](infrastructure-and-os-and-middleware/aws/serverless.md)
 * [DB](infrastructure-and-os-and-middleware/db/README.md)
   * [MySQLの認証](infrastructure-and-os-and-middleware/db/authentication_plugin.md)
