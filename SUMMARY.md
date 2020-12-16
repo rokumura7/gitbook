@@ -40,6 +40,7 @@
 * [TypeScript](languages-and-frameworks/typescript/README.md)
   * [Get Started](languages-and-frameworks/typescript/get-started.md)
   * [Basic Types](languages-and-frameworks/typescript/basic-types.md)
+  * [基礎](languages-and-frameworks/typescript/ji-chu.md)
   * [tsconfig](languages-and-frameworks/typescript/tsconfig.md)
 * [Vue](languages-and-frameworks/vue/README.md)
   * [vue-router](languages-and-frameworks/vue/vue-router.md)
