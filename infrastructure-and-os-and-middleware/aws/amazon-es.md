@@ -260,7 +260,6 @@ def get_snapshot_status(host):
   url = 'http://your_ess_domain/_snapshot/your_snapshot_repo_name/_all?pretty'
   res = requests.get(url, auth=awsauth)
   data = res.json()
-  print(json.dumps(data, indent=4))
   return data
 ```
 
