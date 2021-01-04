@@ -10,41 +10,40 @@ less ~/.zshrc
 
 ```bash
 function rprompt-git-current-branch {
-  local branch_name st branch_status
-
-  if [ ! -e  ".git" ]; then
-    return
-  fi
+  local branch_name
   branch_name=`git rev-parse --abbrev-ref HEAD 2> /dev/null`
-  st=`git status 2> /dev/null`
-  if [[ -n `echo "$st" | grep "^nothing to"` ]]; then
-    branch_status="%F{green}"
-  elif [[ -n `echo "$st" | grep "^Untracked files"` ]]; then
-    branch_status="%F{red}?"
-  elif [[ -n `echo "$st" | grep "^Changes not staged for commit"` ]]; then
-    branch_status="%F{red}+"
-  elif [[ -n `echo "$st" | grep "^Changes to be committed"` ]]; then
-    branch_status="%F{yellow}!"
-  elif [[ -n `echo "$st" | grep "^rebase in progress"` ]]; then
-    echo "%F{red}!(no branch)"
-    return
-  else
-    branch_status="%F{blue}"
+  if [ -n "$branch_name" ]; then
+    echo "%B%F{29}◀%f%K{29}%F{15} $branch_name %f%k%b"
   fi
-  echo "${branch_status}[$branch_name]"
+}
+
+function prompt-working-time {
+  local now
+  now=$(date '+%H')
+  if [ $now -eq 14 ]; then
+    echo "🥦"
+  elif [ $now -ge 19 -o $now -lt 10 ]; then
+    echo "🤤"
+  else
+    echo "🍣"
+  fi
 }
 
 setopt prompt_subst
-RPROMPT='`rprompt-git-current-branch` %F{magenta}%D{%H:%M:%S}%f'
-PROMPT='%F{cyan}%~%f
- 🍣 >> '
+RPROMPT='%F{99}%D{%H:%M:%S}%f'
+PROMPT='%F{33}%~%f `rprompt-git-current-branch`
+ `prompt-working-time`  ▶  '
 
+##### ALIAS #####
+## ls
 alias ls='ls -aG'
 alias ll='ls -l'
 
+## git
 alias glo='git log --oneline'
 alias gbl="git for-each-ref refs/heads/ --sort='committerdate' --format='%(committerdate:short) %(refname:short)'"
 alias ggraph='git log --graph --date-order -C -M --pretty=format:"<%h> %ad [%an] %Cgreen%d%Creset %s" --all --date=short'
+
 ```
 
 ### `RPROMPT`
@@ -55,7 +54,9 @@ alias ggraph='git log --graph --date-order -C -M --pretty=format:"<%h> %ad [%an]
 
 プロンプトの左側に表示
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![&#x30D7;&#x30ED;&#x30F3;&#x30D7;&#x30C8;&#x30A4;&#x30E1;&#x30FC;&#x30B8;](../../.gitbook/assets/image%20%283%29.png)
+
+
 
 
 
