@@ -36,6 +36,7 @@
 * [Scala](languages-and-frameworks/scala/README.md)
   * [Link集](languages-and-frameworks/scala/links.md)
 * [JavaScript](languages-and-frameworks/javascript/README.md)
+  * [npmとNode.jsの更新](languages-and-frameworks/javascript/npmtonodejsno.md)
   * [Link集](languages-and-frameworks/javascript/links.md)
 * [TypeScript](languages-and-frameworks/typescript/README.md)
   * [Get Started](languages-and-frameworks/typescript/get-started.md)
