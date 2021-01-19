@@ -28,6 +28,7 @@
   * [基本操作](devops/git/basic.md)
   * [Tips](devops/git/tips.md)
   * [GitHub Template](devops/git/github-template.md)
+  * [GitHubActions](devops/git/githubactions.md)
   * [履歴改ざん](devops/git/cheat.md)
   * [リポジトリ分割](devops/git/divide.md)
 
