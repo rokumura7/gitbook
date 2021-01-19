@@ -15,6 +15,7 @@
   * [Link集](infrastructure-and-os-and-middleware/db/links.md)
 * [Linux](infrastructure-and-os-and-middleware/linux/README.md)
   * [curl](infrastructure-and-os-and-middleware/linux/curl.md)
+  * [alias](infrastructure-and-os-and-middleware/linux/alias.md)
   * [任意のサイズのファイルを作る](infrastructure-and-os-and-middleware/linux/dd.md)
   * [ディスクの使用量を表示す](infrastructure-and-os-and-middleware/linux/du.md)
   * [zsh設定](infrastructure-and-os-and-middleware/linux/zsh-she-ding.md)
@@ -31,12 +32,14 @@
   * [GitHubActions](devops/git/githubactions.md)
   * [履歴改ざん](devops/git/cheat.md)
   * [リポジトリ分割](devops/git/divide.md)
+  * [Link集](devops/git/links.md)
 
 ## Languages & Frameworks
 
 * [Scala](languages-and-frameworks/scala/README.md)
   * [Link集](languages-and-frameworks/scala/links.md)
 * [JavaScript](languages-and-frameworks/javascript/README.md)
+  * [npm](languages-and-frameworks/javascript/npm.md)
   * [npmとNode.jsの更新](languages-and-frameworks/javascript/npmtonodejsno.md)
   * [Link集](languages-and-frameworks/javascript/links.md)
 * [TypeScript](languages-and-frameworks/typescript/README.md)
@@ -44,6 +47,7 @@
   * [Basic Types](languages-and-frameworks/typescript/basic-types.md)
   * [基礎](languages-and-frameworks/typescript/ji-chu.md)
   * [tsconfig](languages-and-frameworks/typescript/tsconfig.md)
+  * [定数・変数をキーに設定する](languages-and-frameworks/typescript/variable_key.md)
 * [Vue](languages-and-frameworks/vue/README.md)
   * [vue-router](languages-and-frameworks/vue/vue-router.md)
   * [incremental-search](languages-and-frameworks/vue/incremental-search.md)
