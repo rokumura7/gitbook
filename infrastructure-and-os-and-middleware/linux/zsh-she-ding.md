@@ -58,8 +58,8 @@ alias ggraph='git log --graph --date-order -C -M --pretty=format:"<%h> %ad [%an]
 
 ### 参考リンク
 
-* \*\*\*\*[**256 COLORS - CHEAT SHEET**](https://jonasjacek.github.io/colors/)\*\*\*\*
-* \*\*\*\*[**Zshでデキるプロンプト**](https://www.slideshare.net/tetutaro/zsh-20923001)\*\*\*\*
+* [256 COLORS - CHEAT SHEET](https://jonasjacek.github.io/colors/)
+* [Zshでデキるプロンプト](https://www.slideshare.net/tetutaro/zsh-20923001)
 
 
 
