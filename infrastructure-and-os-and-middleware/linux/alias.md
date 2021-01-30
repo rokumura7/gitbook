@@ -2,7 +2,7 @@
 
 ## 追加
 
-```console
+```text
 $ cd ~
 $ vim .bashrc
 $ source .bash_profile
@@ -11,7 +11,8 @@ $ source .bash_profile
 `alias`の書き方は`alias エイリアス名="コマンド"`
 
 例）
-```console
+
+```text
 $ less .bashrc
 
 # bash
@@ -29,5 +30,5 @@ alias tree2='tree -L 2'
 
 # git
 alias gl="git for-each-ref refs/heads/ --sort='committerdate' --format='%(committerdate:short) %(refname:short)'"
-
 ```
+
