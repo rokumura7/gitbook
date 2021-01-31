@@ -4,6 +4,10 @@
 
 コメントアウトの仕方から、基本文法、制御構文、クラスについて
 
+## [クラスについて](class.md)
+
+`class`, `case class`, `abstract class`, `trait`, `object`について
+
 ## 参考リンク
 
 * [基本 \| Scala Documentation](https://docs.scala-lang.org/ja/tour/basics.html)

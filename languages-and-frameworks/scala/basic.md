@@ -243,7 +243,8 @@ p.greet() // Hi! I'm rokumura.
 ### ケースクラス
 
 ケースクラスは**不変であり、値で比較される**。  
-上述の通常のクラスはインスタンス同士の比較となる。
+上述の通常のクラスはインスタンス同士の比較となる。  
+なお、ケースクラスは`new`なしでインスタンス化できる。
 
 ```scala
 // 通常のクラス
@@ -257,22 +258,12 @@ else println("p1とp2は異なる")
 
 // ケースクラス
 case class CasePerson(name: String) {}
-val c1 = new CasePerson("rokumura")
-val c2 = new CasePerson("rokumura")
+val c1 = CasePerson("rokumura")
+val c2 = CasePerson("rokumura")
 
 if (c1 == c2) println("p1とp2は同じ")
 else println("p1とp2は異なる")
 // インスタンスが異なるが値が同じであるため「p1とp2は同じ」と判定される
-```
-
-なお、ケースクラスは`new`なしでインスタンス化できる。
-
-```scala
-case class CasePerson(name: String) {}
-
-val c1 = new CasePerson("rokumura")
-val c2 = CasePerson("rokumura")
-// どちらでもOK
 ```
 
 ### オブジェクト
