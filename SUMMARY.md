@@ -38,7 +38,7 @@
 
 * [Scala](languages-and-frameworks/scala/README.md)
   * [基礎](languages-and-frameworks/scala/basic.md)
-  * [Link集](languages-and-frameworks/scala/links.md)
+  * [クラスについて](languages-and-frameworks/scala/class.md)
 * [JavaScript](languages-and-frameworks/javascript/README.md)
   * [npm](languages-and-frameworks/javascript/npm.md)
   * [npmとNode.jsの更新](languages-and-frameworks/javascript/npmtonodejsno.md)
