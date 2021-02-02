@@ -1,9 +1,9 @@
-# `class`と`case class`、`abstract class`と`trait`、それから`object`について
+# クラスについて
 
 ## TL;DR
 
 | 種類 | 概要 |
-| ---- | ---- |
+| :--- | :--- |
 | class | いわゆる普通のクラス。 |
 | case class | イミュータブルで、値で比較されるクラス。 |
 | abstract class | 抽象メソッドを持てるけどインスタンス化できないクラス。 |
@@ -19,15 +19,19 @@
 ### 定義方法
 
 最小の定義は`class`キーワードと`識別子`のみ。
+
 ```scala
 class User
 
 val usr = new User
 ```
+
 なお、命名は大文字はじまりのキャメルケース推奨。
 
 ### メソッド
+
 クラスのブロック内に`def`を用いて定義。
+
 ```scala
 class User {
   def greet(): Unit = println("Hello.")
@@ -41,6 +45,7 @@ usr.greet() // Hello.
 
 さきほどの`class User`は引数なしのデフォルトコンストラクタを持つ。  
 引数を持つコンストラクタはクラスの識別子に続けて書く。この時、コンストラクタに指定された変数は、デフォルトでは、**`val`で定義されたプライベートな変数**となり、クラス内でのみアクセスできる。
+
 ```scala
 class User(name: String, age: Int) {
   def greet(): Unit = println(s"Hello, I'm ${name}.")
@@ -75,8 +80,10 @@ println(usr.age) // 11
 ```
 
 ### メンバー
+
 クラス内に記述したメンバーはデフォルトでパブリックとなる。  
 プライベートにしたい場合は`private`を付与する。
+
 ```scala
 class User {
   var x     = 100
@@ -95,6 +102,7 @@ println(usr.x) // 100
 
 最小の定義は`case class`キーワードと`識別子`と`パラメータリスト`。パラメータリストは空でもできる。  
 ケースクラスはインスタンス生成を行うapplyメソッドをデフォルトで持っているため、生成時には`new`を必要としない。
+
 ```scala
 case class Book()
 val b = Book()
@@ -168,6 +176,7 @@ class FrontendEngineer extends Engineer
 ```
 
 ### 抽象メソッド
+
 抽象メソッドは振る舞いのみを定義し、実装は具象に任せる。  
 継承したクラスが具象クラスである場合、その振る舞いを`override`して実装をしないとエラーとなる。
 
@@ -189,12 +198,13 @@ engineer.develop() // フロントエンドの開発をします
 ## `trait`
 
 `trait`は、Javaのinterfaceっぽいもの。  
-抽象メソッドを持つことができ、前述の`abstract class`とも似ている。  
+抽象メソッドを持つことができ、前述の`abstract class`とも似ている。
 
 ### 定義方法
 
 `trait`キーワードと識別子。マーカーインターフェースのように使う場合はこれ。  
 継承（インターフェース的に言えば実装と言ったほうが正しいか？）には、`abstract class`と同様に、`extends`を用いる。
+
 ```scala
 trait Engineer
 class FrontendEngineer extends Engineer
@@ -205,6 +215,7 @@ class FrontendEngineer extends Engineer
 迷ったら`trait`、必要になったら`abstract class`。
 
 #### 継承
+
 `abstract class`が単一継承であるのに対して、`trait`は複数実装することができる。
 
 ```scala
@@ -226,7 +237,9 @@ class FrontendEngineer extends Engineer with Designer
 なお、Mixinを用いれば、ごにょごにょはできる。
 
 #### コンストラクタ
-`abstract class`がパラメータを保有できるのに対して、`trait`は持てない。  
+
+`abstract class`がパラメータを保有できるのに対して、`trait`は持てない。
+
 ```scala
 // トレイトはパラメータを持てない
 // trait Engineer(name: String)
@@ -239,6 +252,7 @@ abstract class Engineer(name: String)
 一見`class`と似ているが、`object`はそれ自体が単一のインスタンス。シングルトンと考えることができる。
 
 ### 定義方法
+
 最小は`object`キーワードと識別子。
 
 ```scala
@@ -246,6 +260,7 @@ object Counter
 ```
 
 ### `class`との違い
+
 先述の通り、**`object`はそれ自体が単一のインスタンス**である。
 
 ```scala
@@ -292,3 +307,4 @@ counter2.show() // 3
 
 * [基本 \| Scala Documentation](https://docs.scala-lang.org/ja/tour/basics.html)
 * [Scala研修テキスト - dwango](https://scala-text.github.io/scala_text/)
+

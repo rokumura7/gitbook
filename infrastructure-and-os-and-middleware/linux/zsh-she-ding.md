@@ -43,23 +43,20 @@ alias ll='ls -l'
 alias glo='git log --oneline'
 alias gbl="git for-each-ref refs/heads/ --sort='committerdate' --format='%(committerdate:short) %(refname:short)'"
 alias ggraph='git log --graph --date-order -C -M --pretty=format:"<%h> %ad [%an] %Cgreen%d%Creset %s" --all --date=short'
-
 ```
 
-### `RPROMPT`
+## `RPROMPT`
 
 プロンプトの右側に表示
 
-### `PROMPT`
+## `PROMPT`
 
 プロンプトの左側に表示
 
-![&#x30D7;&#x30ED;&#x30F3;&#x30D7;&#x30C8;&#x30A4;&#x30E1;&#x30FC;&#x30B8;](../../.gitbook/assets/image%20%283%29%20%281%29.png)
+![&#x30D7;&#x30ED;&#x30F3;&#x30D7;&#x30C8;&#x30A4;&#x30E1;&#x30FC;&#x30B8;](../../.gitbook/assets/image%20%283%29%20%282%29.png)
 
-### 参考リンク
+## 参考リンク
 
 * [256 COLORS - CHEAT SHEET](https://jonasjacek.github.io/colors/)
 * [Zshでデキるプロンプト](https://www.slideshare.net/tetutaro/zsh-20923001)
-
-
 

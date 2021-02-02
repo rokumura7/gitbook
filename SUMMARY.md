@@ -30,6 +30,7 @@
   * [Tips](devops/git/tips.md)
   * [GitHub Template](devops/git/github-template.md)
   * [GitHubActions](devops/git/githubactions.md)
+  * [GitHub PRのイベント](devops/git/github-prnoibento.md)
   * [履歴改ざん](devops/git/cheat.md)
   * [リポジトリ分割](devops/git/divide.md)
   * [Link集](devops/git/links.md)
