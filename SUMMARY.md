@@ -50,6 +50,7 @@
   * [Basic Types](languages-and-frameworks/typescript/basic-types.md)
   * [基礎](languages-and-frameworks/typescript/ji-chu.md)
   * [tsconfig](languages-and-frameworks/typescript/tsconfig.md)
+  * [TypeScriptでValueObject](languages-and-frameworks/typescript/vo.md)
   * [定数・変数をキーに設定する](languages-and-frameworks/typescript/variable_key.md)
 * [Vue](languages-and-frameworks/vue/README.md)
   * [vue-router](languages-and-frameworks/vue/vue-router.md)
