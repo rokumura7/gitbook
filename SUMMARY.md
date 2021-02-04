@@ -2,6 +2,7 @@
 
 * [rokumura7](README.md)
 * [Note](note/README.md)
+  * [オブジェクト指向](note/oop.md)
   * [コンポーネント指向](note/component.md)
 
 ## Infrastructure & OS & Middleware
