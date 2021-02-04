@@ -51,7 +51,7 @@ protected constructor(protected readonly val: T) {}
 
 ## 等価判定
 
-上記の`eq`では、コントラクターの名前を利用して、クラスが同じであることも条件に加えている。
+上記の`eq`では、コントラクタの名前を利用して、クラスが同じであることも条件に加えている。
 単純に値が等価であるかだけを比較したければ、下記で十分。
 
 ```typescript
@@ -75,9 +75,9 @@ class Price extends NumberValueObject {
 
 ## バリデーション
 
-バリデーションは、コンストラクターに仕込んでもいいし、抽象クラスに用意してもいいだろうし、`of`の中に設けてもいいだろうし。
+バリデーションは、コンストラクタに仕込んでもいいし、抽象クラスに用意してもいいだろうし、`of`の中に設けてもいいだろうし。
 
-### コンストラクターに仕込んだ場合
+### コンストラクタに仕込んだ場合
 
 ```typescript
 abstract class NumberValueObject extends ValueObject<number> {
