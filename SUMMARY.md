@@ -42,7 +42,7 @@
   * [基礎](languages-and-frameworks/scala/basic.md)
   * [クラスについて](languages-and-frameworks/scala/class.md)
 * [PHP](languages-and-frameworks/php/README.md)
-  * [LaravelでDBを使った単体テスト](languages-and-frameworks/php/laraveldedbwottatesuto.md)
+  * [LaravelでDBを使った単体テスト](languages-and-frameworks/php/laravel-ut-with-db.md)
 * [JavaScript](languages-and-frameworks/javascript/README.md)
   * [npm](languages-and-frameworks/javascript/npm.md)
   * [npmとNode.jsの更新](languages-and-frameworks/javascript/npm-and-nodejs.md)
