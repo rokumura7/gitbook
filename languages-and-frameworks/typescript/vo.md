@@ -1,6 +1,8 @@
-# TypeScriptでValueObjectの表現を考えてみた
+# TypeScriptでValueObject
 
-## TL;DR
+## TypeScriptでValueObjectの表現を考えてみた
+
+### TL;DR
 
 ```typescript
 abstract class ValueObject<T> {
@@ -39,7 +41,7 @@ console.log(userName1.eq(userName2)) // true
 console.log(userName1.eq(adminName)) // false
 ```
 
-## 不変性
+### 不変性
 
 `readonly`にすることで、値の変更を防ぐ。
 
@@ -49,10 +51,9 @@ protected constructor(protected readonly val: T) {}
 
 `Object.freeze`を使っているサンプルも見かけたが、`readonly`だけでも十分なのでは。
 
-## 等価判定
+### 等価判定
 
-上記の`eq`では、コントラクタの名前を利用して、クラスが同じであることも条件に加えている。
-単純に値が等価であるかだけを比較したければ、下記で十分。
+上記の`eq`では、コントラクタの名前を利用して、クラスが同じであることも条件に加えている。 単純に値が等価であるかだけを比較したければ、下記で十分。
 
 ```typescript
 eq(vo: ValueObject<T>): boolean {
@@ -60,7 +61,7 @@ eq(vo: ValueObject<T>): boolean {
 }
 ```
 
-## プリミティブの指定
+### プリミティブの指定
 
 他のプリミティブを指定することももちろん可能。
 
@@ -73,11 +74,11 @@ class Price extends NumberValueObject {
 }
 ```
 
-## バリデーション
+### バリデーション
 
 バリデーションは、コンストラクタに仕込んでもいいし、抽象クラスに用意してもいいだろうし、`of`の中に設けてもいいだろうし。
 
-### コンストラクタに仕込んだ場合
+#### コンストラクタに仕込んだ場合
 
 ```typescript
 abstract class NumberValueObject extends ValueObject<number> {
@@ -97,7 +98,7 @@ const price1 = Price.of(100)
 const price2 = Price.of(-1) // Error: The value must be more than 0.
 ```
 
-### 抽象クラスに用意した場合
+#### 抽象クラスに用意した場合
 
 ```typescript
 abstract class NumberValueObject extends ValueObject<number> {
@@ -117,7 +118,7 @@ const price1 = Price.of(100)
 const price2 = Price.of(-1) // Error: The value must be more than 0.
 ```
 
-### ofの中に設けた場合
+#### ofの中に設けた場合
 
 ```typescript
 abstract class NumberValueObject extends ValueObject<number> {}
@@ -133,11 +134,13 @@ const price1 = Price.of(100)
 const price2 = Price.of(-1) // Error: The value must be more than 0.
 ```
 
-# 最後に
+## 最後に
 
 お寿司食べたい🍣
 
-# 参考
+## 参考
+
 * [TypeScript DeepDive：クラス](https://typescript-jp.gitbook.io/deep-dive/future-javascript/classes)
 * [TypeScript DeepDive：readonly](https://typescript-jp.gitbook.io/deep-dive/type-system/readonly)
 * [TypeScript DeepDive：等価演算子の同一性](https://typescript-jp.gitbook.io/deep-dive/recap/equality)
+

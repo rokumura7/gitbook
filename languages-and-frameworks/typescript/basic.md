@@ -152,7 +152,6 @@ func('apple')
 
 ```typescript
 type Mapped = {
-  [key in 'id' | 'age']: number
 }
 const m: Mapped = {
   id: 1,
@@ -207,12 +206,10 @@ class CUser {
     this.id = id
     this.name = name
   }
-  
+
   getInfo():string {
     return `${this.id} : ${this.name}`
   }
 }
 ```
-
-
 
