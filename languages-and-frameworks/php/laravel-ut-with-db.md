@@ -3,6 +3,7 @@
 参考：[Laravel5.4：データベースのテスト](https://readouble.com/laravel/5.4/ja/database-testing.html)
 
 ## データのリセット
+
 前のテストデータが次のテスト結果へ影響を与えないように、  
 各テストごとにデータベースをリセットする
 
@@ -25,3 +26,4 @@ class ExampleTest extends TestCase
   }
 }
 ```
+
