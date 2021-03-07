@@ -53,7 +53,7 @@ alias ggraph='git log --graph --date-order -C -M --pretty=format:"<%h> %ad [%an]
 
 プロンプトの左側に表示
 
-![&#x30D7;&#x30ED;&#x30F3;&#x30D7;&#x30C8;&#x30A4;&#x30E1;&#x30FC;&#x30B8;](../../.gitbook/assets/image%20%283%29%20%282%29%20%282%29.png)
+![&#x30D7;&#x30ED;&#x30F3;&#x30D7;&#x30C8;&#x30A4;&#x30E1;&#x30FC;&#x30B8;](../../.gitbook/assets/image%20%283%29%20%282%29%20%282%29%20%282%29.png)
 
 ## 参考リンク
 

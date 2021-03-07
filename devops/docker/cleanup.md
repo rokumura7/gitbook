@@ -20,7 +20,7 @@ docker images -qf dangling=true | xargs docker rmi
 docker images -q | xargs docker rmi -f
 ```
 
-## コンテナの削除
+## ボリュームの削除
 
 ### 紐付いたデータボリュームも削除
 
@@ -28,15 +28,13 @@ docker images -q | xargs docker rmi -f
 docker ps -aqf status=exited | xargs docker rm -v
 ```
 
-## ボリュームの削除
-
 ### 浮いたボリュームの削除
 
 ```text
 docker volume ls -qf dangling=true | xargs docker volume rm
 ```
 
-## Docker Composeコンテナの削除
+## コンテナの削除
 
 ```text
 docker-compose rm -v
