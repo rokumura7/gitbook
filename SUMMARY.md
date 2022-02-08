@@ -11,8 +11,8 @@
   * [Amazon ES](infrastructure-and-os-and-middleware/aws/amazon-es.md)
   * [Serverless](infrastructure-and-os-and-middleware/aws/serverless.md)
 * [DB](infrastructure-and-os-and-middleware/db/README.md)
-  * [MySQLの認証](infrastructure-and-os-and-middleware/db/authentication_plugin.md)
-  * [外部キー解除](infrastructure-and-os-and-middleware/db/rm_foreign_key.md)
+  * [MySQLの認証](infrastructure-and-os-and-middleware/db/authentication\_plugin.md)
+  * [外部キー解除](infrastructure-and-os-and-middleware/db/rm\_foreign\_key.md)
   * [Link集](infrastructure-and-os-and-middleware/db/links.md)
 * [Linux](infrastructure-and-os-and-middleware/linux/README.md)
   * [curl](infrastructure-and-os-and-middleware/linux/curl.md)
@@ -21,6 +21,8 @@
   * [ディスクの使用量を表示す](infrastructure-and-os-and-middleware/linux/du.md)
   * [zsh設定](infrastructure-and-os-and-middleware/linux/zsh-config.md)
   * [Tips](infrastructure-and-os-and-middleware/linux/tips.md)
+* [Elasticsearch](infrastructure-and-os-and-middleware/elasticsearch/README.md)
+  * [More Like This](infrastructure-and-os-and-middleware/elasticsearch/more-like-this.md)
 
 ## DevOps
 
@@ -55,10 +57,9 @@
   * [基礎](languages-and-frameworks/typescript/basic.md)
   * [tsconfig](languages-and-frameworks/typescript/tsconfig.md)
   * [TypeScriptでValueObject](languages-and-frameworks/typescript/vo.md)
-  * [定数・変数をキーに設定する](languages-and-frameworks/typescript/variable_key.md)
+  * [定数・変数をキーに設定する](languages-and-frameworks/typescript/variable\_key.md)
 * [Vue](languages-and-frameworks/vue/README.md)
   * [vue-router](languages-and-frameworks/vue/vue-router.md)
   * [incremental-search](languages-and-frameworks/vue/incremental-search.md)
 * [CSS](languages-and-frameworks/css/README.md)
   * [TailwindCSS](languages-and-frameworks/css/tailwindcss.md)
-
