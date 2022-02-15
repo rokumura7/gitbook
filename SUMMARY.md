@@ -55,6 +55,7 @@
   * [Get Started](languages-and-frameworks/typescript/get-started.md)
   * [Basic Types](languages-and-frameworks/typescript/basic-types.md)
   * [基礎](languages-and-frameworks/typescript/basic.md)
+  * [スプレッド構文とオブジェクトの一部変更](languages-and-frameworks/typescript/supureddotoobujekutono.md)
   * [tsconfig](languages-and-frameworks/typescript/tsconfig.md)
   * [TypeScriptでValueObject](languages-and-frameworks/typescript/vo.md)
   * [定数・変数をキーに設定する](languages-and-frameworks/typescript/variable\_key.md)
